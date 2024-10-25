@@ -20,11 +20,11 @@ fn main() {
 
     println!("3 -> Length of {str2} is {length1}");
 
-    let finalString: String = String::from("Shiv Sharma");
+    let final_string: String = String::from("Shiv Sharma");
 
-    let size: usize = finalSolution(&finalString);
+    let size: usize = final_solution(&final_string);
 
-    println!("Final string is {finalString} and length is {size}");
+    println!("Final string is {final_string} and length is {size}");
 }
 
 
@@ -40,6 +40,6 @@ fn solution(str: String) -> usize {
     return str.len();
 }
 
-fn finalSolution(str: &String) -> usize {
+fn final_solution(str: &String) -> usize {
     return str.len();
 }
