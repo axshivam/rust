@@ -5,6 +5,7 @@ fn main() {
     println!("{str}");
 
     let mut str1 : &str = "New";
+    println!("{str1}");
 
     str1 = "Shiv Sharma";
     println!("{str1}");
