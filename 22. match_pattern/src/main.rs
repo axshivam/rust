@@ -1,3 +1,4 @@
+#[warn(dead_code)]
 enum Coin {
     Penny,
     Nickel,

@@ -1,3 +1,4 @@
+#[warn(dead_code)]
 struct User {
     active: bool,
     username: String,

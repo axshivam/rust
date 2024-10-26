@@ -1,3 +1,4 @@
+#[warn(dead_code)]
 enum Message {
     Quit,
     Move { x: i32, y: i32 },

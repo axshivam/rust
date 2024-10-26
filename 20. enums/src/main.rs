@@ -1,4 +1,5 @@
 #[derive(Debug)]
+#[warn(dead_code)]
 enum IPAddressKind {
     V4,
     V6,
