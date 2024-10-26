@@ -1,0 +1,6 @@
+[package]
+name = "crates_and_packages"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
